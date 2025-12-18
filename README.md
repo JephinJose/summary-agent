@@ -2,7 +2,7 @@
 
 ![Swagger UI](screenshots/swagger.png)
 
-A lightweight REST API that summarizes documents using a local LLM via Ollama. Upload a PDF, DOCX, or plain text file and get back a concise summary — no cloud APIs, no data leaving your machine.
+A lightweight REST API that summarizes documents using a local LLM via Ollama. Upload a PDF, DOCX, or plain text file and get back a concise summary - no cloud APIs, no data leaving your machine.
 
 ## What it does
 
@@ -66,4 +66,4 @@ OLLAMA_BASE_URL = "http://localhost:11434"
 OLLAMA_MODEL = "llama3.2"
 ```
 
-Any model available in Ollama will work — swap in `mistral`, `phi3`, or anything else you have pulled.
+Any model available in Ollama will work - swap in `mistral`, `phi3`, or anything else you have pulled.
